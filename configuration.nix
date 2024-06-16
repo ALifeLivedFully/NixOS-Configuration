@@ -151,6 +151,7 @@ in
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
     "veracrypt"
     "obsidian"
+    "android-studio-stable"
   ];
 
   # Some packages are marked as insecure and will refuse to evaluate unless you add them here to acknowledge the potential security risk. CAUTION!
