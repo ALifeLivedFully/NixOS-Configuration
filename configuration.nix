@@ -121,7 +121,7 @@ in
     packages = with pkgs; [
       # Add packages here
       vscodium
-      android-studio-stable
+      android-studio
       anki-bin
       scrcpy
       session-desktop
