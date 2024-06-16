@@ -3,8 +3,8 @@
   # To rebuild do: doas nixos-rebuild switch --flake ~/.dotfiles/#ThinkPad
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable"; # Unstable
-    # nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-24.05"; # Stable
+    # nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable"; # Unstable
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-24.05"; # Stable
   };
 
   outputs = { self, nixpkgs, ... }: 
